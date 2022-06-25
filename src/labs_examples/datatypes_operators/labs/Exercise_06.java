@@ -12,7 +12,11 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        // write code here
-
+        double r = 3.14;
+        double h = 5;
+        double volume = 3.14 * r * r * h;
+        System.out.println("the volume of cylinder is " + volume);
+        double surface = 2 * 3.14 * r * h + 2 * 3.14 * r * r;
+        System.out.println("the surface of the cylinder " + surface);
     }
 }
